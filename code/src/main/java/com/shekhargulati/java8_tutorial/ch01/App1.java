@@ -11,6 +11,8 @@ public class App1 implements A {
     }
 }
 
+// This is a comment from branch lr - 1
+
 interface A {
     default void doSth() {
         System.out.println("inside A");
